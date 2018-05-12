@@ -1,5 +1,7 @@
 <div id="allBurgers">
   <div id="burgersToEat">
+    <center><div class="col-md-3"></div>
+      
     <h2>Burgers Ready To Be Eaten</h2>
     <div class="row">
       <div class="col-md-4 col-md-offset-1">
@@ -22,9 +24,14 @@
           </ul>
         </div>
       </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
       <div id="burgersAte">
-        <h2>You Have Devoured These Burgers:</h2>
+        <h2 style="text-align: center">You Have Devoured These Burgers:</h2>
         <ul>
           {{#each burgers}} {{#if devoured}}
 
@@ -33,4 +40,6 @@
           {{/if}} {{/each}}
         </ul>
       </div>
+      </div>
+      </center>
     </div>
